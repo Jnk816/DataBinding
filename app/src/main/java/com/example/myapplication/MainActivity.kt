@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         //example: if use plaintext in design, we can use binding.editTextTextPersonName2.setText(student.name)
         binding.btnDisplay.setOnClickListener() {
             student.programme = "RIS"
+            student.age = 21
 
             binding.apply {
                 invalidateAll() //auto refresh the data
